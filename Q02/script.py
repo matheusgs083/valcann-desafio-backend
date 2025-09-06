@@ -79,10 +79,10 @@ def gerenciar_arquivos(caminho_origem, caminho_backup, dias_para_backup):
 def main():
     # Variáveis fixas
     DIAS_BACKUP = 3
-    PASTA_ORIGEM = r"/home/valcann/backupsFrom"
-    PASTA_BACKUP = r"/home/valcann/backupsTo"
-    LOG_COMPLETO = r"/home/valcann/backupsFrom.log"
-    LOG_ACOES = r"/home/valcann/backupsTo.log"
+    PASTA_ORIGEM = "/home/valcann/backupsFrom"
+    PASTA_BACKUP = "/home/valcann/backupsTo"
+    LOG_COMPLETO = "/home/valcann/backupsFrom.log"
+    LOG_ACOES = "/home/valcann/backupsTo.log"
     
     CABECALHO_COMPLETO = ['Nome', 'Tipo', 'Tamanho (MB)', 'Data de Modificacao', 'Acao']
     CABECALHO_ACOES = ['Nome do Arquivo', 'Acao', 'Data de Modificacao']
