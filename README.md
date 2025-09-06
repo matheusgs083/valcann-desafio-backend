@@ -44,6 +44,18 @@
    * Copiar arquivos com até `DIAS_BACKUP` dias para `PASTA_BACKUP`.
    * Gerar dois logs (`.log`): um completo e outro resumido com as ações tomadas.
 
+### Saída esperada
+
+```bash
+    python cleanup_and_backup.py
+    # Saída esperada:
+    # Processado: arquivo1.txt -> COPIADO
+    # Processado: arquivo2.txt -> DELETADO
+    # Logs gerados em /home/usuario/backupsFrom.log e /home/usuario/backupsTo.log
+```
+
+---
+
 * **Resumo:** Script que remove arquivos antigos, realiza backup dos arquivos válidos e gera logs detalhados.
 
 ---
