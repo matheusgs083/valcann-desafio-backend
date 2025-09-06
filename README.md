@@ -1,12 +1,17 @@
 # Desafio Back-End — Valcann
 
->Este repositório contém as soluções propostas para o Desafio Back-End. Neste Arquivo contém apenas um resumo das respostas, as respostas detalhadas estão nas pastas nomeadas de acordo com as questões
+>Este repositório reúne as soluções desenvolvidas para o Desafio Back-End.
+>Aqui você encontra apenas um resumo das respostas; os detalhes completos estão organizados nas pastas correspondentes a cada questão.
 
 ## Questão 1
 
 - Arquivo principal: `1-QUESTAO/Q01.md`
 - O MER (modelo entidade-relacionamento) representa **Benchmark, Controle e Histórico de dados.**
 - Diagrama disponível em: `assets/benchmark.png`
+
+---
+
+- **Resumo:** Modelo conceitual para organizar benchmarks e acompanhar evolução de controles.
 
 ## Questão 2
 
@@ -36,6 +41,10 @@
     - Copiar os arquivos menores ou iguais a `DIAS_BACKUP` para `PASTA_BACKUP`.
     - Gera dois .logs, um como a lista de todos os arquiivos e outro com a lista de ações tomada pelo script.
 
+---
+
+- **Resumo:** Script que remove arquivos antigos, copia os válidos e gera logs de execução.
+
 ## Questão 3
 
 - Arquivo principal: `3-QUESTAO/Q03.md`
@@ -43,6 +52,8 @@
 - Diagrama disponível em assets/fluxograma-de-funcionamento.png.
 
 ---
+
+### Resumo
 
 - **Problema:** Deploy manual de Node.js + React → retrabalho, erros humanos e demora nas entregas.
 - **Causa:** Processo sem automação, sem CI/CD.
