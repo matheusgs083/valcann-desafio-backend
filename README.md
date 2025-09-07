@@ -20,6 +20,8 @@
 * **Arquivo detalhado:** `2-QUESTAO/Q02.md`
 * **Descrição:** Script em Python para gerenciamento de arquivos, que remove arquivos antigos, copia os válidos e gera logs de execução.
 
+>Como se trata de uma rotina diária, eu utilizaria um programa de automação, como o Power Automate, no qual é possível criar um fluxo para executar o script e definir um horário específico para sua execução, aumentando ainda mais a eficiência da tarefa.
+
 ### Como executar
 
 1. Editar as variáveis no início da função `main()`:
